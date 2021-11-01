@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Time Aware</title>
+	<script type="text/javascript" src="Funciones/ApiTTSjs.js"></script>
+	<script type="text/javascript" src="Funciones/timechecker.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="test">
+			<label for="txt">Test</label>
+			<input type="text" id="content" name="txt" placeholder="Texto a leer">
+			<input type="submit" onclick="tts()" value="Leer">
+		</div>
+		<div id="time">
+			<label class="red" id="taim" for="timeaware">Time readed out loud</label>
+			<button name="timeaware" onclick="timestart()">Start</button>
+			<button name="timeunaware" onclick="timestop()">Stop</button>
+			<button title="test" onclick="humantime()">time</button>
+		</div>
+		<div id="settings">
+			<label class="green" id="set" for="set1">Settings</label>
+			<select name="set1" id="voice">
+				<optgroup label="Español Mexico">
+					<option value="mx&v=Juana">Juana</option>
+					<option value="mx&v=Silvia">Silvia</option>
+					<option value="mx&v=Teresa">Teresa</option>
+					<option value="mx&v=Jose">Jose</option>
+				</optgroup>
+				<optgroup label="Español España">
+					<option value="es&v=Camila">Camila</option>
+					<option value="es&v=Sofia">Sofia</option>
+					<option value="es&v=Luna">Luna</option>
+					<option value="es&v=Diego">Diego</option>
+				</optgroup>
+			</select>
+			<button onclick="tryvoice()">Try</button>
+		</div>
+	</div>
+
+</body>
+</html>

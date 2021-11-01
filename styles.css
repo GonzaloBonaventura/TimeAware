@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+div{
+	margin: 0;
+}
+#main{
+	float: left;
+	margin: 0 0 0 10vw;
+	background-color: #00002f;
+	display: block;
+	width: 80vw;
+	height: 100vh;
+}
+#test{
+	display: float;
+	width: 80vw;
+	height: 20vh;
+	margin: 1vh 0 0 0;
+	text-align: center;
+	color: #aaaaaa;
+}
+#time{
+	display: float;
+	width: 80vw;
+	height: 20vh;
+	margin: 1vh 0 0 0;
+	text-align: center;
+	color: #aaaaaa;
+}
+#settings{
+	display: float;
+	width: 80vw;
+	height: 20vh;
+	margin: 1vh 0 0 0;
+	text-align: center;
+	color: #aaaaaa;
+}
+.green{
+	color: #090;
+}
+.red{
+	color: #900;
+}
