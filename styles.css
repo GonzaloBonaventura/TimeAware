@@ -22,10 +22,9 @@ div{
 	color: #aaaaaa;
 }
 #time{
-	display: float;
-	width: 80vw;
+	width: 24vw;
 	height: 20vh;
-	margin: 1vh 0 0 0;
+	margin: 1vh 0 0 28vw;
 	text-align: center;
 	color: #aaaaaa;
 }
@@ -37,9 +36,32 @@ div{
 	text-align: center;
 	color: #aaaaaa;
 }
+#taim{
+	float: left;
+	margin: auto;
+}
+#light{
+	display: float;
+	float: left;
+	margin: 0;
+	width: 3vw;
+	height: 4vh;
+	text-align: center;
+}
+.button{
+	display: float;
+	float: left;
+	margin: 0 0 1vh 10vw;
+}
+.lgreen{
+	color: #096;
+}
 .green{
 	color: #090;
 }
 .red{
 	color: #900;
+}
+.yellow{
+	color: #bb0;
 }

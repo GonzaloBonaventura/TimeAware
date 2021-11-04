@@ -11,14 +11,15 @@
 	<div id="main">
 		<div id="test">
 			<label for="txt">Test</label>
-			<input type="text" id="content" name="txt" placeholder="Texto a leer">
-			<input type="submit" onclick="tts()" value="Leer">
+			<input type="text" id="content" name="txt" placeholder="Text to be read">
+			<input type="submit" onclick="tts()" value="Read">
 		</div>
 		<div id="time">
 			<label class="red" id="taim" for="timeaware">Time readed out loud</label>
-			<button name="timeaware" onclick="timestart()">Start</button>
-			<button name="timeunaware" onclick="timestop()">Stop</button>
-			<button title="test" onclick="humantime()">time</button>
+			<p id="light" class="">⬤</p>
+			<button name="timeaware" class="button" onclick="timestart()">Start</button>
+			<button name="timeunaware" class="button" onclick="timestop()">Stop</button>
+			<button title="Timestamp" class="button" onclick="humantime()">Date</button>
 		</div>
 		<div id="settings">
 			<label class="green" id="set" for="set1">Settings</label>
