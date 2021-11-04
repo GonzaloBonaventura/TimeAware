@@ -15,26 +15,26 @@
 			<input type="submit" onclick="tts()" value="Read">
 		</div>
 		<div id="time">
-			<label class="red" id="taim" for="timeaware">Time readed out loud</label>
-			<p id="light" class="">⬤</p>
-			<button name="timeaware" class="button" onclick="timestart()">Start</button>
-			<button name="timeunaware" class="button" onclick="timestop()">Stop</button>
-			<button title="Timestamp" class="button" onclick="humantime()">Date</button>
+			<label id="taim" for="timeaware">Time readed out loud</label>
+			<p id="light" class="">Status: ⬤</p>
+			<div class="button"><button name="timeaware" onclick="timestart()">Start</button></div>
+			<div class="button"><button name="timeunaware" onclick="timestop()">Stop</button></div>
+			<div class="button"><button title="Timestamp" onclick="humantime()">Date</button></div>
 		</div>
 		<div id="settings">
 			<label class="green" id="set" for="set1">Settings</label>
 			<select name="set1" id="voice">
 				<optgroup label="Español Mexico">
-					<option value="mx&v=Juana">Juana</option>
-					<option value="mx&v=Silvia">Silvia</option>
-					<option value="mx&v=Teresa">Teresa</option>
-					<option value="mx&v=Jose">Jose</option>
+					<option value="es-mx&v=Juana">Juana</option>
+					<option value="es-mx&v=Silvia">Silvia</option>
+					<option value="es-mx&v=Teresa">Teresa</option>
+					<option value="es-mx&v=Jose">Jose</option>
 				</optgroup>
 				<optgroup label="Español España">
-					<option value="es&v=Camila">Camila</option>
-					<option value="es&v=Sofia">Sofia</option>
-					<option value="es&v=Luna">Luna</option>
-					<option value="es&v=Diego">Diego</option>
+					<option value="es-es&v=Camila">Camila</option>
+					<option value="es-es&v=Sofia">Sofia</option>
+					<option value="es-es&v=Luna">Luna</option>
+					<option value="es-es&v=Diego">Diego</option>
 				</optgroup>
 			</select>
 			<button onclick="tryvoice()">Try</button>

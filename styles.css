@@ -37,21 +37,19 @@ div{
 	color: #aaaaaa;
 }
 #taim{
-	float: left;
-	margin: auto;
+	display: inline;
+	margin: 0 0 5vh 0;
+	color: #909;
 }
 #light{
-	display: float;
-	float: left;
-	margin: 0;
-	width: 3vw;
+	margin: auto;
+	width: 15vw;
 	height: 4vh;
 	text-align: center;
 }
 .button{
-	display: float;
-	float: left;
-	margin: 0 0 1vh 10vw;
+	display: inline;
+	margin: auto;
 }
 .lgreen{
 	color: #096;
