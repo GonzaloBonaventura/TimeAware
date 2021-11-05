@@ -77,8 +77,22 @@
 				</optgroup>
 			</select>
 			<button onclick="tryvoice()">Try</button>
+			<div class="slidecontainer">
+				<label class="yellow" id="" for="speed">Speed</label>
+  				<input type="range" min="-10" max="10" value="0" class="slider" id="speed">
+  				<p>Value: <span id="demo"></span></p>
+			</div>
 		</div>
 		<footer><a target="_blank" href="http://www.voicerss.org/api/">Api Used</a></footer>
 	</div>
+<script>
+var slider = document.getElementById("speed");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
 </body>
 </html>
