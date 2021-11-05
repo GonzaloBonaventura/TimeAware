@@ -1,9 +1,15 @@
 body{
+	display: flex;
 	margin: 0;
 	background-color: black;
 }
 div{
 	margin: 0;
+}
+footer{
+	width: 80vw;
+	margin: 30vh auto auto auto;
+	text-align: center;
 }
 #main{
 	float: left;
